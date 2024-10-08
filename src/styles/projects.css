@@ -1,0 +1,116 @@
+.list-cards-project {
+    width: 100%;
+}
+
+.card-project {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+
+.card-project .img {
+    margin-right: 10px;
+    margin: 40px 10px 40px 0px;
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: rgb(219, 219, 219);
+    rotate: 25grad;
+    box-shadow: 2px 3px 5px #e4e4e4;
+}
+
+.img-card {
+    rotate: -25grad;
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.content-card-project {
+    width: 60%;
+}
+
+.title-card-project {
+    font-family: feature;
+}
+
+.techs-card-project {
+    color: #373737;
+}
+
+.tech-name {
+    font-weight: 700;
+}
+
+.content-card-project p {
+    display: block;
+    padding: 8px 0px;
+    text-align:justify;
+}
+
+main {
+    margin-top: 60px;
+}
+
+/** celulares estilização*/
+@media screen and (max-width: 460px) {
+  
+    .side-bar nav {
+      width: 60%;
+    }
+  
+    main {
+        margin-top: 60px;
+    }
+    
+.content-card-project {
+    width: 100%;
+}
+.content-card-project .btn-link {
+    margin: auto;
+}
+
+.side-bar h1 a {
+    font-size: 16pt;
+}
+
+}
+
+
+
+@media screen and (max-width:360px) {
+    body {
+      padding: 0px 8px;
+    }
+
+    .side-bar h1{
+      width: 47%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .side-bar h1 a {
+      font-size: 14pt;
+    }
+    .side-bar nav {
+      width: 53%;
+    }
+
+    .side-bar ul li a {
+      font-size: 12pt;
+    }
+
+  }
+

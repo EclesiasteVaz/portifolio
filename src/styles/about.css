@@ -1,0 +1,24 @@
+.img-card {
+    rotate: -25grad;
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inverse {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:460px) {
+    .inverse {
+        flex-direction:column;
+    }
+}
